@@ -2052,6 +2052,12 @@ class H5PCore {
     self::DISABLE_COPYRIGHT => self::DISPLAY_OPTION_COPYRIGHT
   );
 
+  public $fullPluginPath;
+  public $relativePathRegExp;
+  public $aggregateAssets;
+  public $development_mode;
+  public $url;
+  
   /**
    * Constructor for the H5PCore
    *
